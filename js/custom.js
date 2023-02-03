@@ -36,7 +36,7 @@
 		arr.forEach(function (text) {
 			text.style.fontFamily = newFont;
 		})
-	}, 2000);
+	}, 1500);
 
 
 	//Page Scroll to id
