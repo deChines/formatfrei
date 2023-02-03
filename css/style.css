@@ -2447,11 +2447,19 @@ a:hover{
 }
 
 .team-mem img.cover{
+	display: none;
 	position: absolute;
 }
 
 .team-mem:hover img.cover{
 	display: none;
+}
+
+@media (hover) {
+	
+}
+.team-mem:hover img.cover{
+	display: flex;
 }
 
 .team-mask{
