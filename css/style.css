@@ -855,6 +855,13 @@ body.nav-active .nav__list-item:nth-child(10) {
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
+
+@media (max-width: 375px) {
+	.hero-center-wrap{
+		top: 265px;
+	}
+}
+
 .hero-center-wrap.down-wrap{
 	top: auto;
 	margin-top: 0;
@@ -2452,15 +2459,15 @@ a:hover{
 }
 
 .team-mem:hover img.cover{
-	display: none;
+	display: flex;
 }
 
 @media (hover) {
-	
+	.team-mem:hover img.cover{
+		display: flex;
+	}	
 }
-.team-mem:hover img.cover{
-	display: flex;
-}
+
 
 .team-mask{
     position: absolute;	
